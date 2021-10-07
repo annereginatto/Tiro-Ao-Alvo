@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap");
+
+h1 {
+    color: red; 
+    letter-spacing: 2px; 
+    margin-left: 200px;
+}
+
+ol {
+    color: midnightblue; 
+    margin-right: 55%; 
+    text-align: justify; 
+    line-height: 1.3
+}
+
+h4 {
+    color: midnightblue; 
+    margin-left: 30px;
+}
+
+footer p {
+    text-align: center;
+    font-size: 16px;
+    cursor: default;
+    font-family: "Gloria Hallelujah", cursive;
+    letter-spacing: 3px;
+    margin-bottom: 5px;
+  }
+  
+  footer p:hover {
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+    text-decoration: underline;
+  }
+  
+  #linkedin,
+  #github {
+    width: 30px;
+  }
+  
+  #linkedin:hover,
+  #github:hover,
+  #discord:hover,
+  #codepen:hover,
+  #gmail:hover {
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+  }
+  
+  #gmail, #codepen, #discord {
+    width: 33px;
+    height: 33px;
+  }
+  
+  #linkedin,
+  #github,
+  #discord,
+  #codepen,
+  #gmail {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+  
+  footer .img {
+    text-align: center;
+  }
