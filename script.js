@@ -42,7 +42,7 @@ var yPosition;
 function reloadPage() {
     if (level >= 0 && level < 10) {
         clearPage();
-        brush.fillStyle = "lightgray";
+        brush.fillStyle = "black";
         brush.fillRect(0, 0, 600, 400);
         brush.fillStyle = "black";
         brush.fillRect(500, 0, 110, 80);
